@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Speech to Text Converter</h1>
+        <div class="text-container">
+            <button id="copy-text" onclick="copyToClipboard()"> <i class="fa-regular fa-copy"></i></button>
+            <p id="text"></p></div>
+        <div style="display: flex; justify-content: center;">
+        <button class="recorder" onclick="startConverting()"><i class="fa-solid fa-microphone" style="color:white"></i></button>
+        <button class="stop" onclick="stopConverting()"><i class="fa-solid fa-stop" style="color: #ffffff;"></i></button>
+        </div>
+    </div>
+        <script src="index.js"></script>
+    
+</body>
+</html>

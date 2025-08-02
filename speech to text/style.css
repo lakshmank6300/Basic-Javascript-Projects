@@ -1,0 +1,63 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 45rem;
+    height: 30rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+p{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.text-container{
+    background-color: orange;
+    padding: 30px;
+    flex: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+#copy-text{
+    position: relative;
+    bottom: 5%;
+    left: 99%;
+    background: none;
+    border: none;
+    display: block;
+}
+.recorder,.stop{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border:none;
+    font-size: 20px;
+}
+
+.recorder:hover{
+    background-color: darkred;
+}
+.stop:hover{
+    background-color: darkred;
+}
+.stop:active{
+    background-color: green;
+}
